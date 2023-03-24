@@ -19,6 +19,9 @@
 .homeLinks {
     text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .btnLinks {
@@ -26,7 +29,7 @@
     font-size: 20px;
     color: black;
     text-decoration: none;
-    padding: 5px;
+    padding: 35px;
     color: rgb(104, 61, 61);
 }
 
@@ -36,9 +39,11 @@
 }
 
 #info {
-    margin-top: 800px;
+    margin-top: 500px;
+    font-size: 20px;
+    width: 200px;
 }
 
 hr {
-    
+    margin-top: 280px;
 }
